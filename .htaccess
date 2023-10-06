@@ -1,0 +1,2 @@
+RewriteEngine On
+RewriteRule ^([^/]+)/?$ redirect.php?token=$1 [L,QSA]
